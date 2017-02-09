@@ -7,7 +7,7 @@ class _Page extends React.Component {
            <div className="container">
               <div className="row">
                  <div className="col-sm-12">
-                    <img src="images/ds.png" alt="bg" className="img-responsive"/>
+                    <img src="images/ds.png" alt="bg" alt="background image" className="img-responsive"/>
                  </div>
               </div>
            </div>
@@ -22,7 +22,7 @@ class _Page extends React.Component {
                        </h1>
                     </div>
                     <div className="col-md-3">
-                       <a className="btn btn-lg" title="" href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" target="blank">
+                       <a className="btn btn-lg" title="" href="#" target="blank">
                        <i className="fa fa-sign-in"></i> <strong>我要报名</strong>
                        </a>
                     </div>
@@ -40,7 +40,7 @@ class _Page extends React.Component {
                  </div>
               </div>
               <div className="row">
-                 <div className="col-sm-4"> <img src="images/about.jpg" alt="services" className="img-responsive"/> </div>
+                 <div className="col-sm-4"> <img src="images/about.jpg" alt="about" className="img-responsive"/> </div>
                  <div className="col-sm-8">
                     <p className="m-t-lg">我国智能硬件产业发展已具备了一定的基础。目前智能硬件产业已正在蓬勃兴起，并初步形成智能穿戴设备、虚拟现实、智能服务机器人、智能车载设备等规模化产品领域。预计至2018年我国智能硬件产品和服务的总体市场规模约5000亿元，至2020年可达到万亿元水平。智能化应用带来模式创新和效率提升，也将对我国中长期经济增长和可持续发展产生重要支撑和拉动作用。
                     </p>
@@ -122,83 +122,36 @@ class _Page extends React.Component {
               </div>
               <div className="row">
                  <article className="col-sm-4">
-                    <section className="imgWrapper">
-                       <a href="#"><img src="images/news/news1.jpg" className="img-responsive" alt="Ashleye template image news" /> </a>
-                    </section>
-                    <section className="newsText color2">
+                    <div>
+                       <a href="#"><img src="images/news/news1.jpg" className="img-responsive" alt="news 1" /> </a>
+                    </div>
+                    <div className="newsText color2">
                        <h3><a href="#">“网络工坊”启动仪式在京召开</a></h3>
                        <h4 className="date">2016年10月25日</h4>
                        <p><a href="#">10月25日，由工业和信息化部软件与集成电路促进中心(以下简称“CSIP”)与北京工信智创科技产业发展有限公司（以下简称“工信智创”）共同主办. 中国计算机报社、玉皇山南基金小镇、智创工坊（北京）有限公司...</a></p>
-                    </section>
+                    </div>
                  </article>
                  <article className="col-sm-4">
-                    <section className="imgWrapper">
-                       <a href="#"><img src="images/news/news2.jpg" className="img-responsive" alt="snowflake template image news" /> </a>
-                    </section>
-                    <section className="newsText color2">
+                    <div>
+                       <a href="#"><img src="images/news/news2.jpg" className="img-responsive" alt="news 2" /> </a>
+                    </div>
+                    <div className="newsText color2">
                        <h3><a href="#">“网络工坊”启动仪式在京召开</a></h3>
                        <h4 className="date">2016年10月25日</h4>
                        <p><a href="#">10月25日，由工业和信息化部软件与集成电路促进中心(以下简称“CSIP”)与北京工信智创科技产业发展有限公司（以下简称“工信智创”）共同主办. 中国计算机报社、玉皇山南基金小镇、智创工坊（北京）有限公司...</a></p>
-                    </section>
+                    </div>
                  </article>
                  <article className="col-sm-4">
-                    <section className="imgWrapper">
-                       <a href="#"><img src="images/news/news3.jpg" className="img-responsive" alt="snowflake template image news" /></a>
-                    </section>
-                    <section className="newsText color2">
+                    <div>
+                       <a href="#"><img src="images/news/news3.jpg" className="img-responsive" alt="news 3" /></a>
+                    </div>
+                    <div className="newsText color2">
                        <h3><a href="#">“网络工坊”启动仪式在京召开</a></h3>
                        <h4 className="date">2016年10月25日</h4>
                        <p><a href="#">10月25日，由工业和信息化部软件与集成电路促进中心(以下简称“CSIP”)与北京工信智创科技产业发展有限公司（以下简称“工信智创”）共同主办. 中国计算机报社、玉皇山南基金小镇、智创工坊（北京）有限公司...</a></p>
-                    </section>
+                    </div>
                  </article>
               </div>
-           </div>
-        </section>
-
-        <section className="slice color1" id="services">
-           <div className="container">
-             <div className="row">
-                <div className="col-xs-12">
-                   <h1>组织机构</h1>
-                   <h2 className="subTitle">Organization</h2>
-                </div>
-             </div>
-             <div className="row">
-                <div className="col-sm-4">
-                   <div className="row boxFeature">
-                      <div className="col-xs-3">
-                         <i className="fa fa-key iconBig"></i>
-                      </div>
-                      <div className="col-xs-9">
-                         <h2 className="font-dark">指导单位</h2>
-                         <p>工业和信息化部<br/>
-                         </p>
-                      </div>
-                   </div>
-                </div>
-                <div className="col-sm-4">
-                   <div className="row boxFeature">
-                      <div className="col-xs-3">
-                         <i className="fa fa-sitemap iconBig"></i>
-                      </div>
-                      <div className="col-xs-9">
-                         <h2 className="font-dark">主办单位</h2>
-                         <p>工业和信息化部电子信息司</p>
-                      </div>
-                   </div>
-                </div>
-                <div className="col-sm-4">
-                   <div className="row boxFeature">
-                      <div className="col-xs-3">
-                         <i className="fa fa-link iconBig"></i>
-                      </div>
-                      <div className="col-xs-9">
-                         <h2 className="font-dark">承办单位</h2>
-                         <p>工业和信息化部软件与集成电路促进中心</p>
-                      </div>
-                   </div>
-                </div>
-             </div>
            </div>
         </section>
 
