@@ -3,11 +3,13 @@ class _Page extends React.Component {
   render() {
     return (
       <div>
+
+
         <section id="ad">
            <div className="container">
               <div className="row">
                  <div className="col-sm-12">
-                    <img src="images/ds.png" alt="bg" alt="background image" className="img-responsive"/>
+                    <img src="/images/ds.png" alt="bg" alt="background image" className="img-responsive"/>
                  </div>
               </div>
            </div>
@@ -22,7 +24,7 @@ class _Page extends React.Component {
                        </h1>
                     </div>
                     <div className="col-md-3">
-                       <a className="btn btn-lg" title="" href="#" target="blank">
+                      <a className="btn btn-lg" title="" href="/regions" target="blank">
                        <i className="fa fa-sign-in"></i> <strong>我要报名</strong>
                        </a>
                     </div>
@@ -37,10 +39,11 @@ class _Page extends React.Component {
                  <div className="col-xs-12">
                     <h1>大赛概况</h1>
                     <h2 className="subTitle">Introduction</h2>
+                    <div className="separator"></div>
                  </div>
               </div>
               <div className="row">
-                 <div className="col-sm-4"> <img src="images/about.jpg" alt="about" className="img-responsive"/> </div>
+                 <div className="col-sm-4"> <img src="/images/about.jpg" alt="about" className="img-responsive"/> </div>
                  <div className="col-sm-8">
                     <p className="m-t-lg">我国智能硬件产业发展已具备了一定的基础。目前智能硬件产业已正在蓬勃兴起，并初步形成智能穿戴设备、虚拟现实、智能服务机器人、智能车载设备等规模化产品领域。预计至2018年我国智能硬件产品和服务的总体市场规模约5000亿元，至2020年可达到万亿元水平。智能化应用带来模式创新和效率提升，也将对我国中长期经济增长和可持续发展产生重要支撑和拉动作用。
                     </p>
@@ -58,6 +61,7 @@ class _Page extends React.Component {
                 <div className="col-xs-12">
                    <h1>组织机构</h1>
                    <h2 className="subTitle">Organization</h2>
+                   <div className="separator"></div>
                 </div>
              </div>
              <div className="row">
@@ -105,9 +109,10 @@ class _Page extends React.Component {
                  <div className="col-xs-12">
                     <h1>赛程安排</h1>
                     <h2 className="subTitle">Schedule</h2>
+                    <div className="separator"></div>
                  </div>
                  <div className="col-xs-12">
-                    <img src="images/schedule.gif" alt="schedule" className="img-schedule"/>
+                    <img src="/images/schedule.gif" alt="schedule" className="img-schedule"/>
                  </div>
               </div>
            </div>
@@ -118,12 +123,14 @@ class _Page extends React.Component {
                  <div className="col-xs-12">
                     <h1>赛事资讯</h1>
                     <h2 className="subTitle">News & Event</h2>
+
+                    <div className="separator"></div>
                  </div>
               </div>
               <div className="row">
                  <article className="col-sm-4">
                     <div>
-                       <a href="#"><img src="images/news/news1.jpg" className="img-responsive" alt="news 1" /> </a>
+                       <a href="#"><img src="/img/news/news1.jpg" className="img-responsive" alt="news 1" /> </a>
                     </div>
                     <div className="newsText color2">
                        <h3><a href="#">“网络工坊”启动仪式在京召开</a></h3>
@@ -133,7 +140,7 @@ class _Page extends React.Component {
                  </article>
                  <article className="col-sm-4">
                     <div>
-                       <a href="#"><img src="images/news/news2.jpg" className="img-responsive" alt="news 2" /> </a>
+                       <a href="#"><img src="/img/news/news2.jpg" className="img-responsive" alt="news 2" /> </a>
                     </div>
                     <div className="newsText color2">
                        <h3><a href="#">“网络工坊”启动仪式在京召开</a></h3>
@@ -143,7 +150,7 @@ class _Page extends React.Component {
                  </article>
                  <article className="col-sm-4">
                     <div>
-                       <a href="#"><img src="images/news/news3.jpg" className="img-responsive" alt="news 3" /></a>
+                       <a href="#"><img src="/img/news/news3.jpg" className="img-responsive" alt="news 3" /></a>
                     </div>
                     <div className="newsText color2">
                        <h3><a href="#">“网络工坊”启动仪式在京召开</a></h3>
@@ -155,31 +162,8 @@ class _Page extends React.Component {
            </div>
         </section>
 
-        <footer>
-           <section id="mainFooter">
-              <div className="container" id="footer">
-                 <div className="row">
-                    <div className="col-sm-7">
-                       <div className="footerWidget">
-                          <img src="images/ns-logo.png" alt="latest Little Neko news" id="footerLogo"/>
-                          <p>网络工坊是工业和信息化部软件与集成电路促进中心（简称CSIP）的智能硬件设计、测试、产品化平台的总称，包括智能硬件设计和云创平台，智能硬件测试，智能硬件产品化等服务内容。网络工坊与多家智能硬件设计平台合作，将产品模型设计模块化，为中小企业和创客提供智能硬件实验环境和技术支持，让企业和创客以低成本参与到智能硬件的研发和应用中，使设计者在最短的时间内验证自己的想法。 </p>
-                       </div>
-                    </div>
-                    <div className="col-sm-5">
-                       <div className="footerWidget">
-                          <h3>更多链接</h3>
-                          <ul>
-                             <li><a href="#">工业和信息化部</a></li>
-                             <li><a href="#">网络工坊电商平台</a></li>
-                             <li><a href="#">网络工坊众筹平台</a></li>
-                             <li><a href="#">联系我们</a></li>
-                          </ul>
-                       </div>
-                    </div>
-                 </div>
-              </div>
-           </section>
-        </footer>
+
+
       </div>
     );
   }

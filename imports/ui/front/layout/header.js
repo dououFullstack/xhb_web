@@ -1,6 +1,7 @@
 import React from 'react';
 import NavLink from './nav_link';
 
+
 class _Component extends React.Component {
   render() {
     return (
@@ -9,19 +10,23 @@ class _Component extends React.Component {
             <nav className="navbar navbar-default" role="navigation">
                <div className="navbar-header">
                  <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"/> <span className="icon-bar"/> <span className="icon-bar"/> </button>
-                  <a className="navbar-brand" href="index.html"><img src="images/main-logo.png" alt="Ashley website template"/></a>
+                 <a className="navbar-brand" href="/"><img src="/images/main-logo.png" alt="Ashley website template"/></a>
                </div>
                <div className="collapse navbar-collapse navbar-ex1-collapse" id="scrollTarget">
                   <ul className="nav navbar-nav pull-right">
                     <NavLink to="/" index={true}>
                       大赛首页
                     </NavLink>
-                    <NavLink to="/editor">
+                    <NavLink to="/about">
                       大赛简介
                     </NavLink>
-                     <li><a href="#">赛程安排</a> </li>
+                    <NavLink to="/schedule">
+                      赛程安排
+                    </NavLink>
                      <li><a href="#">项目申请</a> </li>
-                     <li><a href="#">最新新闻</a> </li>
+                    <NavLink to="/news">
+                      最新新闻
+                    </NavLink>
                      <li><a href="#">MTK网站</a> </li>
                      <li><a href="#contactSlice">登录</a> </li>
                   </ul>

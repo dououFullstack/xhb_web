@@ -10,6 +10,7 @@ import AppStore from '/imports/startup/client/store';
 import AppTheme from '/imports/startup/client/theme';
 import AppRoutes from '/imports/startup/client/routes';
 
+
 injectTapEventPlugin();
 
 Meteor.startup(()=> {

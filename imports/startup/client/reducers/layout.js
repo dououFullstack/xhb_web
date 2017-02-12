@@ -4,8 +4,8 @@ const defaultState = {
 
 function _reducer(state = defaultState, action = {}) {
   switch (action.type) {
-    case 'EXAMPLE' :
-      return {title: 'example'};
+    case 'SET_TITLE' :
+      return {title: action.value};
     default:
       return state;
   }
