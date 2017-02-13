@@ -48,7 +48,7 @@ class _Page extends React.Component {
                     <p className="m-t-lg">我国智能硬件产业发展已具备了一定的基础。目前智能硬件产业已正在蓬勃兴起，并初步形成智能穿戴设备、虚拟现实、智能服务机器人、智能车载设备等规模化产品领域。预计至2018年我国智能硬件产品和服务的总体市场规模约5000亿元，至2020年可达到万亿元水平。智能化应用带来模式创新和效率提升，也将对我国中长期经济增长和可持续发展产生重要支撑和拉动作用。
                     </p>
                     <p>我国智能硬件产业发展仍需破解瓶颈性问题。在规模快速增长、支持政策不断完善的同时，我国智能硬件产业也面临一系列发展制约。一方面产品创新不足。目前国内智能硬件主要集中在穿戴设备、健康、家居、交通出行等方面，虽然产品数量和种类较多，但同质化现象比较突出，产品功能相对简单。这种现象的原因一方面是底层关键元器件和软件技术的短板仍然存在，使产品创新存在较大的瓶颈和依赖性；另一方面是对产品数据、交互价值的开发力度不够，很多产品只支持数据展示和远程控制功能，智能化水平较低。另一方面应用能力不足。针对智能硬件开发的专用应用相对较少，部分应用只是简单复制智能手机的已有模式。虽然消费市场上智能硬件产品初步得到规模应用，但交通、医疗、教育、工业等潜力更加巨大的行业市场基本处于未开发状态。这种状况一方面是因为产业仍处于发展初期的局限，另一方面是智能硬件与行业应用尚未打通，产品的设计和生产缺少相关行业标准指导，行业数据的获取和使用上也有很大限制。即使已有较成熟的行业智能硬件产品，也因为缺少成功的应用示范案例难以在相对封闭的行业中得到推广 ...
-                       <a href="#"> >> 详细信息 </a>
+      <a href="/about"> >> 详细信息 </a>
                     </p>
                  </div>
               </div>
@@ -130,7 +130,7 @@ class _Page extends React.Component {
               <div className="row">
                  <article className="col-sm-4">
                     <div>
-                       <a href="#"><img src="/img/news/news1.jpg" className="img-responsive" alt="news 1" /> </a>
+                      <a href="/news/123"><img src="/img/news/news1.jpg" className="img-responsive" alt="news 1" /> </a>
                     </div>
                     <div className="newsText color2">
                        <h3><a href="#">“网络工坊”启动仪式在京召开</a></h3>
@@ -140,7 +140,7 @@ class _Page extends React.Component {
                  </article>
                  <article className="col-sm-4">
                     <div>
-                       <a href="#"><img src="/img/news/news2.jpg" className="img-responsive" alt="news 2" /> </a>
+                      <a href="/news123"><img src="/img/news/news2.jpg" className="img-responsive" alt="news 2" /> </a>
                     </div>
                     <div className="newsText color2">
                        <h3><a href="#">“网络工坊”启动仪式在京召开</a></h3>

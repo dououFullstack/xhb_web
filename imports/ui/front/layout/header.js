@@ -23,7 +23,9 @@ class _Component extends React.Component {
                     <NavLink to="/schedule">
                       赛程安排
                     </NavLink>
-                     <li><a href="#">项目申请</a> </li>
+                    <NavLink to="/apply">
+                      项目申请
+                    </NavLink>
                     <NavLink to="/news">
                       最新新闻
                     </NavLink>

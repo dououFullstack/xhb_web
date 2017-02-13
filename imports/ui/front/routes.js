@@ -9,6 +9,7 @@ import About from './pages/about';
 import Regions from './pages/regions';
 import Regionsshow from './pages/regions_show';
 import Apply from './pages/apply';
+import Applyform from './pages/apply_form';
 
 const _routes = [
   { path: '/',
@@ -27,6 +28,7 @@ const _routes = [
       { path: '/regions', component: Regions },
       { path: '/regions/:id', component: Regionsshow },
       { path: 'apply', component: Apply },
+      { path: 'apply_form', component: Applyform },
     ],
   },
 ];
